@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "sampleUser",
+      "password": "plainText"
+    }
+  ],
+
+  "posts" : [
+    {
+      "id": 2,
+      "title": "this is a title",
+      "text": "this is a post post",
+      "image": "https://i.imgur.com/AD3MbBi.jpeg",
+      "upvotes": 200,
+      "downvotes": 10,
+      "userId": 1
+    }
+  ],
+  
+  "comments" : [
+      {
+        "id": 22,
+        "text": "this is a comment comment",
+        "postId": 2,
+        "userId": 1,
+        "upvotes": 200,
+        "downvotes": 10
+      }
+  ],
+
+  "subcreddits" : [
+      {
+        "id": 3,
+        "name": "tryCreddit"
+      }
+  ]
+}
