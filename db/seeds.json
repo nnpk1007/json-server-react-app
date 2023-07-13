@@ -1,39 +1,132 @@
 {
+  "items": [
+    {
+      "title": "Table",
+      "price": 60,
+      "description": "In very good condition",
+      "image": "https://m.media-amazon.com/images/I/71TVa-V3eNL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "soldby": "user1",
+      "callortext": "123-456-7890",
+      "id": 1
+    },
+    {
+      "title": "Book",
+      "price": 30,
+      "description": "HTML, CSS, JavaScript All in one",
+      "image": "https://m.media-amazon.com/images/I/41YuXiubLOL._SY445_SX342_.jpg",
+      "soldby": "user1",
+      "callortext": "123-456-7890",
+      "id": 2
+    },
+    {
+      "title": "TV Samsung",
+      "price": 499,
+      "description": "55-Inch Smart TV - Used",
+      "image": "https://m.media-amazon.com/images/I/81QKVuZZa7L._AC_SY450_.jpg",
+      "soldby": "user2",
+      "callortext": "789-654-3210",
+      "id": 4
+    },
+    {
+      "title": "Telescope ",
+      "price": 99,
+      "description": " 600mm(f/6.7) fcal length and 80mm aperture",
+      "image": "https://m.media-amazon.com/images/I/61D2NDvOTcL._AC_SX466_.jpg",
+      "soldby": "user1",
+      "callortext": "123-456-7890",
+      "id": 5
+    },
+    {
+      "title": "Camera",
+      "price": 39,
+      "description": "Digital Camera, FHD 1080P-Used",
+      "image": "https://m.media-amazon.com/images/I/61JavBEclHL._AC_SX466_.jpg",
+      "soldby": "user2",
+      "callortext": "789-654-3210",
+      "id": 6
+    },
+    {
+      "title": "Watch",
+      "price": 49,
+      "description": "Invicta Men's Pro Diver Collection-Used",
+      "image": "https://m.media-amazon.com/images/I/71RdP+pYfbL._AC_UY741_.jpg",
+      "soldby": "user2",
+      "callortext": "789-654-3210",
+      "id": 7
+    },
+    {
+      "title": "Monitor",
+      "price": 119,
+      "description": "Gaming Monitor, Full HD 1080P",
+      "image": "https://m.media-amazon.com/images/I/61sqwnf7fgL._AC_SX679_.jpg",
+      "soldby": "user1",
+      "callortext": "123-456-7890",
+      "id": 8
+    },
+    {
+      "title": "Guitar",
+      "price": 69,
+      "description": "Good",
+      "image": "https://m.media-amazon.com/images/I/81tQhEEtiEL._AC_SX679_.jpg",
+      "soldby": "user2",
+      "callortext": "789-654-3210",
+      "id": 9
+    },
+    {
+      "title": "Macbook Air 2019",
+      "price": 399,
+      "description": "Good battery",
+      "image": "https://m.media-amazon.com/images/I/51O8E51WxxL._AC_SX450_.jpg",
+      "soldby": "user2",
+      "callortext": "789-654-3210",
+      "id": 10
+    },
+    {
+      "title": "Apple AirPods",
+      "price": 69,
+      "description": "2nd Generation - Used",
+      "image": "https://m.media-amazon.com/images/I/61Zh467pKjL._AC_SX522_.jpg",
+      "soldby": "ngoc",
+      "callortext": "333-333-3333",
+      "id": 11
+    },
+    {
+      "title": "Speakers",
+      "price": 20,
+      "description": "Computer Speakers RGB",
+      "image": "https://m.media-amazon.com/images/I/81VXUObSsaL._AC_SX450_.jpg",
+      "soldby": "ngoc",
+      "callortext": "333-333-3333",
+      "id": 12
+    },
+    {
+      "title": "Book",
+      "price": 7.49,
+      "description": "Used",
+      "image": "https://m.media-amazon.com/images/I/81BE7eeKzAL._SY466_.jpg",
+      "soldby": "ngoc",
+      "callortext": "333-333-3333",
+      "id": 13
+    }
+  ],
   "users": [
     {
-      "id": 1,
-      "userName": "sampleUser",
-      "password": "plainText"
-    }
-  ],
-
-  "posts" : [
+      "username": "user1",
+      "password": "password1",
+      "call": "123-456-7890",
+      "id": "39787625-9644-4ea4-be92-52b63ea75c05"
+    },
     {
-      "id": 2,
-      "title": "this is a title",
-      "text": "this is a post post",
-      "image": "https://i.imgur.com/AD3MbBi.jpeg",
-      "upvotes": 200,
-      "downvotes": 10,
-      "userId": 1
+      "username": "user2",
+      "password": "password2",
+      "call": "111-222-3333",
+      "id": "60487d89-48c8-4c17-add7-b3c2402aec99"
+    },
+    {
+      "username": "ngoc",
+      "password": "123",
+      "call": "333-333-3333",
+      "id": "e20fd63f-82e6-4d64-9c41-1f6fff17623a"
     }
-  ],
-  
-  "comments" : [
-      {
-        "id": 22,
-        "text": "this is a comment comment",
-        "postId": 2,
-        "userId": 1,
-        "upvotes": 200,
-        "downvotes": 10
-      }
-  ],
-
-  "subcreddits" : [
-      {
-        "id": 3,
-        "name": "tryCreddit"
-      }
   ]
 }
